@@ -5,7 +5,7 @@ def area_of_sector(angle, radius): # angle (Celcius)
     return area
     
 def area_of_triangle(angle, radius):
-    area = (1/2) * (radius**2) * math.sin(angle)
+    area = (1/2) * (radius**2) * math.sin(math.radians(angle))
     return area
 
 def area_of_shaded_region(a1, r1, a2, r2):
